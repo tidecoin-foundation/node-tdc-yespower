@@ -1,0 +1,19 @@
+{
+  "main": "lib/binding.js",
+  "dependencies": {
+    "node-addon-api": "^1.1.0"
+  },
+  "scripts": {
+    "test": "node --napi-modules ./test/test_binding.js"
+  },
+  "gypfile": true,
+  "name": "tdc-yespower",
+  "version": "1.0.0",
+  "description": "YesPower for Tidecoin",
+  "keywords": [
+    "yespower",
+    "tidecoin"
+  ],
+  "author": "Yar Sawyer",
+  "license": "ISC"
+}
